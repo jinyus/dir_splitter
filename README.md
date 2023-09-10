@@ -1,6 +1,8 @@
 # dir_splitter
 
-Split large directories into parts of a specified maximum size.
+Split large directories into parts of a specified maximum size.This is a dart port of my dirsplitter tool.
+
+[Go version](https://github.com/jinyus/dirsplitter) (more binaries available)<br>
 
 ## How to run:
 
