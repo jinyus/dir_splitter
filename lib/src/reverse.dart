@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:args/command_runner.dart';
-import 'package:dart_splitter/dart_splitter.dart';
+import 'package:dir_splitter/dir_splitter.dart';
 import 'package:path/path.dart' as p;
 
 class ReverseCommand extends Command {

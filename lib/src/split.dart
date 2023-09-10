@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:args/command_runner.dart';
-import 'package:dart_splitter/src/utils.dart';
+import 'package:dir_splitter/src/utils.dart';
 import 'package:path/path.dart' as p;
 
 class SplitCommand extends Command {

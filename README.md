@@ -1,4 +1,4 @@
-# dart_splitter
+# dir_splitter
 
 Split large directories into parts of a specified maximum size.
 
@@ -7,13 +7,13 @@ Split large directories into parts of a specified maximum size.
 #### download the binary from the release page
 
 ```bash
-dart_splitter --help
+dir_splitter --help
 ```
 
 ## USAGE:
 
 ```text
-Usage: dart_splitter <command> [arguments] DIRECTORY
+Usage: dir_splitter <command> [arguments] DIRECTORY
 
 Global options:
 -h, --help    Print this usage information.
@@ -23,7 +23,7 @@ Available commands:
   split     Split a directory into parts of a given size
   version   Outputs the version of this tool
 
-Run "dart_splitter help <command>" for more information about a command.
+Run "dir_splitter help <command>" for more information about a command.
 ```
 
 ## SPLIT USAGE:
@@ -31,7 +31,7 @@ Run "dart_splitter help <command>" for more information about a command.
 ```text
 Split a directory into parts of a given size
 
-Usage: dart_splitter split [arguments]
+Usage: dir_splitter split [arguments]
 -h, --help    Print this usage information.
 -m, --max     Size of each part in GB
               (defaults to "5.0")
@@ -40,7 +40,7 @@ Usage: dart_splitter split [arguments]
 ### example:
 
 ```bash
-dart_splitter split --max 0.5 ./mylarge2GBdirectory
+dir_splitter split --max 0.5 ./mylarge2GBdirectory
 
 This will yield the following directory structure:
 
@@ -56,6 +56,6 @@ with each part being a maximum of 500MB in size.
 Undo splitting
 
 ```bash
-dart_splitter reverse ./mylarge2GBdirectory
+dir_splitter reverse ./mylarge2GBdirectory
 
 ```

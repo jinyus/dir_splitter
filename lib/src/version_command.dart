@@ -1,6 +1,6 @@
 import 'package:args/command_runner.dart';
-import 'package:dart_splitter/dart_splitter.dart';
-import 'package:dart_splitter/src/version.dart';
+import 'package:dir_splitter/dir_splitter.dart';
+import 'package:dir_splitter/src/version.dart';
 
 class VersionCommand extends Command {
   // The [name] and [description] properties must be defined by every

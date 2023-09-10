@@ -1,18 +1,16 @@
-name: dart_splitter
-description: A sample command-line application.
+name: dir_splitter
+description: Split large directories into parts of a specified maximum size.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/jinyus/dir_splitter
 
 environment:
     sdk: ^3.0.6
 
-# Add regular dependencies here.
 dependencies:
     args: ^2.4.2
     file: ^7.0.0
     glob: ^2.1.2
     path: ^1.8.3
-    # path: ^1.8.0
 
 dev_dependencies:
     lints: ^2.0.0
