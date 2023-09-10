@@ -4,9 +4,11 @@ Split large directories into parts of a specified maximum size.
 
 ## How to run:
 
-#### download the binary from the release page
-
 ```bash
+dart bin/main.dart --help
+
+
+# download the binary from the releases page
 dir_splitter --help
 ```
 
